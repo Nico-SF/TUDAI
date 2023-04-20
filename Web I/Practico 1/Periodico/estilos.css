@@ -1,0 +1,36 @@
+img {
+    width: 350px;
+}
+#logo {
+    width: 150px;
+}
+#dist {
+    color: #FFAAAA;
+    font-style: italic;
+    font-weight: bold;
+}
+body {
+}
+h2 {
+    color: #AA3939;
+    font-size: 34px;
+    text-align: center;
+}
+h3 {
+    color: #2D882D;
+    font-size: 20px;
+    font-style: oblique;
+}
+h4 {
+    color: #226666;
+    font-size: 18px;
+}
+p {
+    color: #D49A6A;
+    font-size: 16px;
+}
+ul {
+    color: #D49A6A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
