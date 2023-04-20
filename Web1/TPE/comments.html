@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Nico Vet - Consultas</title>
+		<meta charset="utf-8">
+		<link rel='stylesheet' type='text/css' href='styles/styles.css'/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<header>
+			<nav id="nav-bar">
+				<a id="page-title" href="index.html">Nico<span>Vet</span></a>
+				<ul>
+					<li>
+						<a href="services.html">Servicios</a>
+					</li>
+					<li>
+						<a href="products.html">Productos</a>
+					</li>
+					<li>
+						<a href="comments.html">Consultas</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="index">
+				<h2>¿Tenés dudas?</h2>
+				<h2>¿Querés agendar un turno?</h2>
+				<h2>¡Contactanos!</h2>
+			</div>
+			<div id="content">
+				<form>
+					<div class="form-row">
+						<label for="name">Nombre:</label>
+						<input id="name" type="text" name="name" placeholder="Juan" />
+						<label for="surname">Apellido:</label>
+						<input id="surname" type="text" name="surname" placeholder="Perez" />
+						<input type="checkbox" name="client" value="client" />Soy cliente
+					</div>
+					<div class="form-row">
+						<label for="pet-name">Mascota:</label>
+						<input id="pet-name" type="text" name="pet-name" placeholder="Firulais" />
+						<input type="radio" name="species" value="canine" />Canino
+						<input type="radio" name="species" value="feline" />Felino
+					</div>
+					<div class="form-row">
+						<label for="phone">Telefono:</label>
+						<input id="phone" type="text" name="phone" placeholder="249 464 3113" />
+						<label for="mail">Mail:</label>
+						<input id="mail" type="mail" name="mail" placeholder="juanperez@gmail.com" />
+					</div>
+					<div class="form-row">
+						<textarea name="comment" rows="8" cols="40" placeholder="Dejanos tu comentario, ¡nos comunicaremos en breve!"></textarea>
+					</div>
+					<div class="form-row">
+
+						<div id="captcha"></div>
+    					<input id ="enteredCaptcha" type="text" name="input" placeholder="Ingrese el texto anterior" />
+    					<div id="validation"></div>
+					</div>
+				</form>
+				<button id="refreshCaptcha">
+    				<i class="fas fa-sync-alt"></i> Actualizar
+  				</button> 
+				<button id="sendCaptcha">Enviar</button>
+			</div>
+		</main>
+		<footer>
+			<div>Urgencias: (249) 464 3113</div>
+			<div>
+				<ul>
+					<li><i class="fa-brands fa-whatsapp"></i></li>
+					<li><i class="fa-brands fa-facebook"></i></li>
+					<li><i class="fa-brands fa-instagram"></i></li>
+					<li><i class="fa-brands fa-linkedin-in"></i></li>
+				</ul>
+		</footer>
+		<script type="text/javascript" src="scripts/commentsScript.js"></script>
+	</body>
+</html>
