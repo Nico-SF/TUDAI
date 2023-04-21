@@ -9,6 +9,15 @@ img {
     font-style: italic;
     font-weight: bold;
 }
+div {
+    padding-top: 50px;
+    padding-right: 30%;
+    padding-bottom: 50px;
+    padding-left: 40%;
+  }
+#principal {
+    background-color: cadetblue;
+}
 body {
 }
 h2 {
